@@ -16,7 +16,7 @@ gem "acts_as_follower", github: "forem/acts_as_follower", branch: "master" # All
 gem "addressable", "~> 2.8" # A replacement for the URI implementation that is part of Ruby's standard library
 gem "ahoy_email", "~> 2.2.0" # Email analytics for Rails
 gem "ahoy_matey", "~> 5.0.2" # Tracking analytics for Rails
-gem "algoliasearch-rails", "~> 2.3" # Algolia Search API Client
+gem "algoliasearch-rails", "~> 3.0", ">= 3.0.0" # Algolia Search API Client
 gem "ancestry", "~> 4.2" # Ancestry allows the records of a ActiveRecord model to be organized in a tree structure
 gem "blazer", "~> 2.6" # Allows admins to query data
 gem "bootsnap", ">= 1.1.0", require: false # Boot large ruby/rails apps faster
@@ -61,16 +61,16 @@ gem "jsonapi-serializer", "~> 2.2" # Serializer for Ruby objects
 gem "kaminari", "~> 1.2" # A Scope and Engine based, clean, powerful, customizable and sophisticated paginator
 gem "katex", "~> 0.9.0" # This rubygem enables you to render TeX math to HTML using KaTeX. It uses ExecJS under the hood
 gem "liquid", "~> 5.4" # A secure, non-evaling end user template engine with aesthetic markup
-gem "metainspector", "~> 5.12" # To get and parse website metadata for Open Graph rich objects
+gem "metainspector", "~> 5.16", ">= 5.16.0" # To get and parse website metadata for Open Graph rich objects
 gem "mini_magick", "~> 4.13" # Manipulate images with minimal use of memory via ImageMagick / GraphicsMagick
 gem "nokogiri", "~> 1.13" # HTML, XML, SAX, and Reader parser
-gem "octokit", "~> 5.2" # Simple wrapper for the GitHub API
+gem "octokit", "~> 6.0", ">= 6.0.0" # Simple wrapper for the GitHub API
 gem "oj", "~> 3.13" # JSON parser and object serializer
 gem "omniauth", "~> 2.1" # A generalized Rack framework for multiple-provider authentication
-gem "omniauth-apple", "~> 1.0" # OmniAuth strategy for Sign In with Apple
-gem "omniauth-facebook", "~> 9.0" # OmniAuth strategy for Facebook
+gem "omniauth-apple", "~> 1.3", ">= 1.3.0" # OmniAuth strategy for Sign In with Apple
+gem "omniauth-facebook", "~> 10.0", ">= 10.0.0" # OmniAuth strategy for Facebook
 gem "omniauth-github", "~> 2.0" # OmniAuth strategy for GitHub
-gem "omniauth-google-oauth2", "~> 1.0" # OmniAuth strategy for Google OAuth2
+gem "omniauth-google-oauth2", "~> 1.1", ">= 1.1.3" # OmniAuth strategy for Google OAuth2
 gem "omniauth-rails_csrf_protection", "~> 1.0" # Provides CSRF protection on OmniAuth request endpoint on Rails application.
 gem "omniauth-twitter", "~> 1.4" # OmniAuth strategy for Twitter
 gem "parallel", "~> 1.22" # Run any kind of code in parallel processes
